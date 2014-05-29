@@ -18,29 +18,29 @@ OS: Mac OS X 1.8.5
 Results
 -------
 
-# Run complete. Total time: 04:49:09
-
-<table>
-	<tr>
-		<td>Benchmark</td>
-		<td>Mode</td>
-		<td>Samples</td>
-		<td>Mean</td>
-		<td>Mean error</td>
-		<td>Units</td>
-	</tr><tr>
-		<td>c.s.ParallelTestingBenchmark.parallelTests</td>
-		<td>thrpt</td>
-		<td>100</td>
-		<td>8,811</td>
-		<td>0,022</td>
-		<td>ops/min</td>
-	</tr><tr>
-		<td>c.s.ParallelTestingBenchmark.sequentialTests</td>
-		<td>thrpt</td>
-		<td>100</td>
-		<td>4,103</td>
-		<td>0,006</td>
-		<td>ops/min</td>
-	</tr>
-</table>
+> Run complete. Total time: 04:49:09
+> 
+> <table>
+>	<tr>
+>		<td>Benchmark</td>
+>		<td>Mode</td>
+>		<td>Samples</td>
+>		<td>Mean</td>
+>		<td>Mean error</td>
+>		<td>Units</td>
+>	</tr><tr>
+>		<td>c.s.ParallelTestingBenchmark.parallelTests</td>
+>		<td>thrpt</td>
+>		<td>100</td>
+>		<td>8,811</td>
+>		<td>0,022</td>
+>		<td>ops/min</td>
+>	</tr><tr>
+>		<td>c.s.ParallelTestingBenchmark.sequentialTests</td>
+>		<td>thrpt</td>
+>		<td>100</td>
+>		<td>4,103</td>
+>		<td>0,006</td>
+>		<td>ops/min</td>
+>	</tr>
+> </table>
