@@ -8,15 +8,17 @@ Test setup
 
 The test was run on an Early 2013 MacBook Pro.
 
-CPU: 2.4 GHz Intel Core i7 (4 cores, 8 threads)
-L2-Cache/core: 256 KB
-L3-Cache: 6MB
-RAM: 2x4GB 1600 MHz DDR3
-Graphicscard: Intel HD Graphics 4000 512 MB
-OS: Mac OS X 1.8.5
+- CPU: 2.4 GHz Intel Core i7 (4 cores, 8 threads)
+- L2-Cache/core: 256 KB
+- L3-Cache: 6MB
+- RAM: 2x4GB 1600 MHz DDR3
+- Graphicscard: Intel HD Graphics 4000 512 MB
+- OS: Mac OS X 1.8.5
 
 Results
 -------
+
+Running on the above Laptop, the final output was as follows:
 
 > Run complete. Total time: 04:49:09
 > 
@@ -44,3 +46,5 @@ Results
 >		<td>ops/min</td>
 >	</tr>
 > </table>
+
+Anyone is welcome to download the code to replicate the results or (since it is published under the MIT licence) do pretty much anything else with it.
