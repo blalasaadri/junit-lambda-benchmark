@@ -3,6 +3,18 @@ junit-lambda-benchmark
 
 This is a micro benchmark for parallel testing using the junit-lambda library.
 
+How to run the benchmark
+------------------------
+
+With Maven set up, run the following command in command line:
+<code>mvn clean install && java -jar target/microbenchmarks.jar</code>
+
+### Warning ###
+As you can see in the Results section of this readme, completing all of the tests took close to 5 hours on my computer.
+If you want to run them you may want to reduce the number of tests run.
+To do so, modify ```com.senacor.ParallelTestingBenchmark```.
+The values you may want to reduce are those in the ```@Fork```, ```@Warmup``` and ```@Measurement``` annotations.
+
 Test setup
 ----------
 
